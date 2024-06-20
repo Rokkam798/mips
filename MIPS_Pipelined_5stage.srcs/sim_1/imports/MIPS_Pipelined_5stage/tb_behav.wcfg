@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="14.151 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/registers[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/registers[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/registers[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/registers[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/registers[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/in_mem/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/in_mem/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/rs_reg" type="array">
+      <obj_property name="ElementShortName">rs_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/rt_reg" type="array">
+      <obj_property name="ElementShortName">rt_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rf/rd_reg" type="array">
+      <obj_property name="ElementShortName">rd_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_inst/IN_1" type="array">
+      <obj_property name="ElementShortName">IN_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_1[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_inst/IN_2" type="array">
+      <obj_property name="ElementShortName">IN_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_2[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_inst/fwd_val" type="array">
+      <obj_property name="ElementShortName">fwd_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fwd_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_inst/fwd_val_2" type="array">
+      <obj_property name="ElementShortName">fwd_val_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fwd_val_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_inst/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/hd/Hz_Detect" type="logic">
+      <obj_property name="ElementShortName">Hz_Detect</obj_property>
+      <obj_property name="ObjectShortName">Hz_Detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/fu/forward" type="array">
+      <obj_property name="ElementShortName">forward[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/write_back_inst/Write_Data" type="array">
+      <obj_property name="ElementShortName">Write_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/dm/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/ALUOP" type="array">
+      <obj_property name="ElementShortName">ALUOP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/cu/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+</wave_config>
